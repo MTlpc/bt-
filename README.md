@@ -1,3 +1,3 @@
 # shell
-宝塔专业版开源
+喜樂君开源脚本
 博客blog.rfq.fun
