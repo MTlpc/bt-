@@ -498,7 +498,7 @@ if [ ! -f "/usr/bin/unzip" ];then
 	#rm -f /etc/yum.repos.d/epel.repo
 	yum install unzip -y
 fi
-wget -O panel.zip https://raw.githubusercontent.com/wxilejun/bt-/master/install_bt5.9.sh -T 10
+wget -O panel.zip https://raw.githubusercontent.com/wxilejun/bt-/master/panel.zip -T 10
 wget -O /etc/init.d/bt $download_Url/install/src/bt.init -T 10
 if [ -f "$setup_path/server/panel/data/default.db" ];then
 	if [ -d "/$setup_path/server/panel/old_data" ];then
