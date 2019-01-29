@@ -7,10 +7,10 @@ is64bit=`getconf LONG_BIT`
 if [ -f "/usr/bin/apt-get" ];then
 	isDebian=`cat /etc/issue|grep Debian`
 	if [ "$isDebian" != "" ];then
-		wget -O pro.sh~ https://blog.rfq.fun/shell/bt/bt/pro.sh~ && bash pro.sh~
+		wget -O install_bt5.9 https://github.com/wxilejun/bt-/install_bt5.sh && bash install_bt5.9sh
 		exit;
 	else
-		wget -O pro.sh~ https://blog.rfq.fun/shell/bt/bt/pro.sh~ && bash pro.sh~
+		wget -O install_bt5.9 https://github.com/wxilejun/bt-/install_bt5.sh && bash install_bt5.9sh
 		exit;
 	fi
 fi
