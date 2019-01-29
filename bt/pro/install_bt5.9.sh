@@ -106,7 +106,7 @@ echo -e "\033[33m喜樂君脚本\033[0m"
 echo -e "\033[34m宝塔专业版5.9\033[0m"
 echo -e "\033[34m环境centos6.x-7.x\033[0m"
 echo -e "\033[34mQQ480003832\033[0m"
-echo -e "\033[34m博客blog.rfq.fun\033[0m"
+echo -e "\033[34m博客blog.yloli.cn\033[0m"
 echo -e "\033[34m交流群461909009\033[0m"
 echo -e "\033[34m脚本开源\033[0m"
 
@@ -675,15 +675,15 @@ fi
 echo -e "=================================================================="
 echo -e "\033[32m恭喜宝塔专业版环境安装成功\033[0m"
 echo -e "=================================================================="
-echo  "Bt-Panel: http://$address:$port"
-echo -e "username: $username"
-echo -e "password: $password"
-echo -e "\033[33mWarning:\033[0m"
-echo -e "\033[33mIf you cannot access the panel, \033[0m"
-echo -e "\033[33mrelease the following port (8888|888|80|443|20|21) in the security group\033[0m"
+echo  "宝塔控制面板: http://$address:$port"
+echo -e "用户名: $username"
+echo -e "密码: $password"
+echo -e "\033[33m提示\033[0m"
+echo -e "\033[33m安装按成还是打不开控制面板请放行以下端口\033[0m"
+echo -e "\033[33m(8888|888|80|443|20|21) 问题还是无法解决?交流群461909009\033[0m"
 echo -e "=================================================================="
 
 endTime=`date +%s`
 ((outTime=($endTime-$startTime)/60))
-echo -e "Time consumed:\033[32m $outTime \033[0mMinute!"
-rm -f install.sh
+echo -e "安装耗时:\033[32m $outTime \033[0mMinute!"
+rm -f install_bt5.9.sh
