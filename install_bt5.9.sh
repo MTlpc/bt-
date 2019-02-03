@@ -679,11 +679,11 @@ echo  "宝塔控制面板: http://$address:$port"
 echo -e "用户名: $username"
 echo -e "密码: $password"
 echo -e "\033[33m提示\033[0m"
-echo -e "\033[33m安装按成还是打不开控制面板请放行以下端口\033[0m"
+echo -e "\033[33m安装完成还是打不开控制面板请放行以下端口\033[0m"
 echo -e "\033[33m(8888|888|80|443|20|21) 问题还是无法解决?交流群461909009\033[0m"
 echo -e "=================================================================="
 
 endTime=`date +%s`
 ((outTime=($endTime-$startTime)/60))
-echo -e "安装耗时:\033[32m $outTime \033[0mMinute!"
+echo -e "安装耗时:\033[32m $outTime \033[0m分钟"
 rm -f install_bt5.9.sh
